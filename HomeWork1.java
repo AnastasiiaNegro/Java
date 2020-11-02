@@ -8,13 +8,13 @@ public class HomeWork1 {
 
         Scanner scanner = new Scanner (System.in);
         System.out.println("Enter count potatoes:");
-        int countPotatos = scanner.nextInt();
+        int countPotatoes = scanner.nextInt();
         System.out.println("Enter count package:");
         int countPackage = scanner.nextInt();
-        int countPotatosinPackage;
-        countPotatosinPackage = countPotatos/countPackage;
-        System.out.println("Count potatoes in package:" + countPotatosinPackage);
-        System.out.println("Remainder potatoes:" + (countPotatos - (countPackage * countPotatosinPackage)));
+        int countPotatoesinPackage;
+        countPotatoesinPackage = countPotatoes/countPackage;
+        System.out.println("Count potatoes in package:" + countPotatoesinPackage);
+        System.out.println("Remainder potatoes:" + (countPotatoes - (countPackage * countPotatoesinPackage)));
 
     }
 }
