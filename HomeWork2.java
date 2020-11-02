@@ -10,8 +10,8 @@ public class HomeWork2 {
             System.out.println("Number cycle: " + numberCycle);
 
             Scanner scanner = new Scanner(System.in);
-            System.out.print("Enter count potatos: ");
-            int countPotatos = scanner.nextInt();
+            System.out.print("Enter count potatoes: ");
+            int countPotatoes = scanner.nextInt();
 
             System.out.print("Enter count package: ");
             int countPackage = scanner.nextInt();
@@ -26,9 +26,9 @@ public class HomeWork2 {
                 }
 
             }
-            int countPotatosInPackage = countPotatos / countPackage;
-            if (countPotatosInPackage <= 200) {
-                System.out.println("Count potatos in package " + countPotatosInPackage);
+            int countPotatoesInPackage = countPotatoes / countPackage;
+            if (countPotatoesInPackage <= 200) {
+                System.out.println("Count potatoes in package " + countPotatoesInPackage);
             } else {
                 System.out.println("You should take more packages");
             }
