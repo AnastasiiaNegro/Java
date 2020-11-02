@@ -2,7 +2,7 @@ package com.anastasiia;
 
 import java.util.Scanner;
 
-public class Dz2 {
+public class HomeWork2 {
 
     public static void main(String[] args) {
         int numberCycle = 1;
